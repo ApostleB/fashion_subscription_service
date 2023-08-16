@@ -1,0 +1,16 @@
+Use Fitboa;
+
+DROP PROCEDURE IF EXISTS TEST_P;
+
+DELIMITER $$
+CREATE PROCEDURE TEST_P(
+    IN PUserId INT
+)
+BEGIN
+    SELECT *
+    FROM Users
+    WHERE Id = PUserId;
+END $$
+DELIMITER ;
+
+GRANT EXECUTE ON PROCEDURE `Fitboa`.`TEST_P` TO 'fitboa'@'localhost';

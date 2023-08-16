@@ -1,0 +1,15 @@
+/config
+/node_modules
+/uploads/*
+/certifications
+/.vscode
+
+.pub
+.ppk
+.pem
+.txt
+mariadb_repo_setup
+NOTICE.txt
+Apache License.txt
+/migrations
+/certifications

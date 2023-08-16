@@ -1,0 +1,11 @@
+{
+    "name": "fitboa",
+    "host": "",
+    "protocol": "",
+    "port": 22,
+    "username": "",
+    "password": "",
+    "remotePath": "",
+    "uploadOnSave": true,
+    "privateKeyPath": ""
+}

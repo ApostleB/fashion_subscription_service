@@ -1,0 +1,8 @@
+{
+    "host": "localhost",
+    "user": "fitboa",
+    "password": "#K2689r4m",
+    "database": "Fitboa",
+    "connectionLimit": 30,
+    "port": 3306
+}
